@@ -142,8 +142,10 @@ There will also be 2 other titles and paragraphs and they are:
 
 <img width="477" alt="Workflow Design" src="https://user-images.githubusercontent.com/29733613/89100433-d22c0980-d3ee-11ea-894f-c4b7690da98a.png">
 
-# Homepage Implementation
+# Homepage Implementation - 1
 
 <img width="1440" alt="Homepage Implementation" src="https://user-images.githubusercontent.com/29733613/89105845-b7708980-d41c-11ea-9f85-988b686a101d.png">
+
+# Homepage Implementation - 2
 
 <img width="1439" alt="Homepage Impementation 2" src="https://user-images.githubusercontent.com/29733613/89105860-cfe0a400-d41c-11ea-8e10-84f4f5d14d14.png">
