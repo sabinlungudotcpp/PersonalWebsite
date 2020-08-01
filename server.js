@@ -31,7 +31,7 @@ app.use((request, response, next) => {
     const requestMethod = request.method;
 
     if(requestMethod === 'GET') {
-        return response.status(notFoundCode).sendFile(path.join(__dirname, '404.html'));
+        return response.status(notFoundCode).sendFile(path.join(__dirname, 'views', '404.html'));
     }
 })
 
