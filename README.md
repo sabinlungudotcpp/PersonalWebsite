@@ -97,3 +97,7 @@ There will also be 2 other titles and paragraphs and they are:
 
 
 **11. Each of the pages on the website will have a footer section that will contain links to my social media accounts in the event of people wanting to contact me.**
+
+# Homepage Wireframe Design - Header Section
+
+<img width="523" alt="Homepage - Header" src="https://user-images.githubusercontent.com/29733613/89100259-9e9caf80-d3ed-11ea-934a-b01f88ed10f9.png">
