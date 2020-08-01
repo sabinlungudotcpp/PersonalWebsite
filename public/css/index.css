@@ -24,6 +24,11 @@ h1 {
     margin-bottom: 50px;
 }
 
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .main-heading {
     top: 40%;
     left: 35%;
