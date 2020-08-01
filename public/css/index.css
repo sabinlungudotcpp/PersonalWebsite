@@ -3,3 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 300;
+    text-rendering: optimizeLegibility;
+}
