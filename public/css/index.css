@@ -67,15 +67,26 @@ h1 {
     border-bottom: 2px solid #1dd1a1;
 }
 
+.btn {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    padding-left: 20px;
+    border-radius: 200px;
+}
+
 .btn-more {
-   color: white;
-   text-decoration: none;
-   margin-top: 20px;
-   padding-left: 20px;
+   border: 1px solid #1dd1a1;
+   background-color: #1dd1a1;
 }
 
 .btn-more a {
     margin-top: 20px;
     float: right;
     margin-left: 30px;
+}
+
+.btn-more a:active, .btn-more a:hover {
+    
 }
