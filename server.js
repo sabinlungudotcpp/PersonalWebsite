@@ -40,7 +40,23 @@ app.get('/personal-projects', (request, response) => {
     if(requestMethod === 'GET' && request.accepts('html')) {
         return response.status(okCode).sendFile(path.join(__dirname, 'views', 'projects.html'));
     }
-})
+});
+
+app.get('/life', (request, response) => {
+    const requestMethod = request.method;
+
+    if(requestMethod === 'GET' && request.accepts('html')) {
+        return response.status(okCode).sendFile(path.join(__dirname, 'views', 'life.html'));
+    }
+});
+
+app.get('/hobbies', (request, response) => {
+    const requestMethod = request.method;
+
+    if(requestMethod === 'GET' && request.accepts('html')) {
+        return response.status(okCode).sendFile(path.join(__dirname, 'views', 'hobbies.html'));
+    }
+});
 
 app.use((request, response, next) => {
     const requestMethod = request.method;
