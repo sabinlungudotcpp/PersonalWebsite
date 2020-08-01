@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+@keyframes animateComponents {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    60% {
+        transform: translateX(50deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(50deg);
+    }
+}
+
 html {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
@@ -22,17 +38,19 @@ h1 {
     color: white;
     font-size: 100px;
     margin-bottom: 50px;
+    animation: animateComponents ease-out 0.7s;
 }
 
 h2 {
     text-transform: uppercase;
     text-align: center;
-    padding: 40px 0;
+    padding: 50px 0;
+    color: #1dd1a1;
 }
 
 .main-heading {
     top: 40%;
-    left: 35%;
+    left: 30%;
     position: absolute;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -46,7 +64,7 @@ h2 {
     color: white;
     margin-left: 130px;
     margin-bottom: 50px;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 .main-heading a {
@@ -97,4 +115,10 @@ h2 {
 .btn-more a:active, .btn-more a:hover {
     background-color: #1dd1a1;
     border: 1px solid #1dd1a1;
+}
+
+.welcome-text {
+    padding: 10px 40px;
+    display: inline-block;
+    margin: 0 auto;
 }
