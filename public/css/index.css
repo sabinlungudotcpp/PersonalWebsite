@@ -37,6 +37,10 @@ h1 {
     margin-left: 130px;
 }
 
+.main-heading a {
+    
+}
+
 .row {
     width: 1140px;
     margin: 0 auto;
@@ -59,4 +63,10 @@ h1 {
 
 .main-navigation li a:active, .main-navigation li a:hover {
     border-bottom: 2px solid #1dd1a1;
+}
+
+.btn-more {
+    text-decoration: none;
+    color: white;
+    padding: 20px 0;
 }
