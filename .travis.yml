@@ -7,4 +7,3 @@ services:
 before_install:
     - docker build -t personal-website .
     - docker ps
-    - docker run -e CI=true -p 8014:8040 personal-website
