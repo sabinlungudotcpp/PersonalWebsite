@@ -17,3 +17,24 @@ header {
     background-size: cover;
     height: 100vh;
 }
+
+.row {
+    width: 1140px;
+    margin: 0;
+}
+
+.main-navigation {
+    
+}
+
+.main-navigation li {
+    padding: 10px 0;
+    text-transform: uppercase;
+    margin: 30px 40px;
+    display: inline-block;
+}
+
+.main-navigation li a {
+    text-decoration: none;
+    color: white;
+}
