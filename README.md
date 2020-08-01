@@ -22,3 +22,20 @@ I will list the software and tools that I will be using to implement the functio
 
 # Technical Feasibility Study
 
+The following tools and software will be used to develop the web application:
+
+-	Zube (List the requirements into sprint backlogs)
+
+-	Draw.io (Wireframe design for the website pages) & backend design
+
+-	Docker.
+
+-	Travis Continuous Integration (CI)
+
+-	Git Version Control
+
+-	HTML5, CSS3 & Express JavaScript
+
+-	Visual Studio Code
+
+-	Heroku for deployment.
