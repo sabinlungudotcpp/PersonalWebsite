@@ -3,7 +3,6 @@ const path = require('path');
 const morgan = require('morgan');
 const app = express();
 
-const port = 8040;
 const okCode = 200;
 const notFoundCode = 404;
 
@@ -20,6 +19,6 @@ app.get('/', (request, response) => {
     }
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 8040), () => {
     return console.log('Listening for requests on port 8040');
-});
+};
