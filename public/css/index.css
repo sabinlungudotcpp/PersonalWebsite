@@ -49,8 +49,9 @@ h2 {
 }
 
 h3 {
-    padding: 50px 100px;
-    margin-top: 100px;
+    padding: 35px 90px;
+    margin-top: 70;
+    margin-left: -40px;
 }
 
 .main-heading {
@@ -172,6 +173,21 @@ h3 {
     left: 100%;
 }
 
+.section-projects {
+    margin-bottom: 38px;
+    margin-top: 50px;
+}
+
+.section-projects a {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 600px;
+    text-transform: uppercase;
+    color: #1dd1a1;
+}
+
 .projects-paragraph-text {
-    margin-bottom: 150px;
+    margin-bottom: 130px;
+    margin-top: -10px;
+    padding-left: 50px;
 }
