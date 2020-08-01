@@ -29,10 +29,18 @@ app.get('/', (request, response) => {
     const requestMethod = request.method;
     const requestURL = request.url;
 
-    if(requestMethod === 'GET' && requestURL.startsWith('/')) {
+    if(requestMethod === 'GET' && requestURL.startsWith('/') && request.accepts('html')) {
         return response.status(okCode).sendFile(path.join(__dirname, 'views', 'index.html'));
     }
 });
+
+app.get('/personal-projects', (request, response) => {
+    const requestMethod = request.method;
+
+    if(requestMethod === 'GET' && request.accepts('html')) {
+        return response.status(okCode).sendFile(path.join(__dirname, 'views', 'projects.html'));
+    }
+})
 
 app.use((request, response, next) => {
     const requestMethod = request.method;

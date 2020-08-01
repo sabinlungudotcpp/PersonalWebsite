@@ -67,6 +67,10 @@ h2 {
     margin-top: 40px;
 }
 
+.main-heading p:hover {
+    animation: animateComponents ease-out 0.5s;
+}
+
 .main-heading a {
     margin-left: 125px;
     margin-top: 20px;
