@@ -81,6 +81,10 @@ h2 {
     background-color: #1dd1a1;
 }
 
+.projects-paragraph p {
+    margin-left: 50px;
+}
+
 .main-heading a:active, .main-heading a:hover {
     background-color: #1dd1a1;
 }
