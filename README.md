@@ -39,3 +39,10 @@ The following tools and software will be used to develop the web application:
 -	Visual Studio Code
 
 -	Heroku for deployment.
+
+# Legal Feasibility Study
+
+Under the Computer Misuse Act, I will not be writing any malicious backend code that will harvest data and/or make services unavailable to users. I will ensure that cookie sessions will be used to encrypt and store personal data of the users visiting my website. I will not be writing any malware or any keyloggers that will impair the user’s ability to access my personal website.
+
+
+Under the Copyright Design and Patents Act, I will not be making use of any resources that do not belong to me. All of the images that will be used are my own and I have permission to use them, however I will list the links from where I will get the colours and fonts that I will implement on my website in a bibliography at the end of this document.
