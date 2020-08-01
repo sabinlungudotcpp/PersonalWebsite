@@ -56,25 +56,24 @@ h2 {
     letter-spacing: 1px;
     word-spacing: 1px;
     margin-left: 70px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .main-heading .personal-life-heading {
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .main-heading p {
     color: white;
-    margin-left: 100px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-left: 135px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .projects-heading p {
     margin-left: 130px;
 }
-
 
 .main-heading p:hover {
     animation: animateComponents ease-out 0.5s;
@@ -102,6 +101,10 @@ h2 {
 
 .main-navigation li a:active, .main-navigation li a:hover {
     border-bottom: 2px solid #1dd1a1;
+}
+
+.main-navigation .hobbies-link {
+    margin-left: -10px;
 }
 
 .btn-more a {
