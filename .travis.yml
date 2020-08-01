@@ -5,6 +5,6 @@ services:
     - docker
 
 before_install:
-    - docker build -e CI=true -t personal-website .
+    - docker build -t personal-website .
     - docker ps -a
     - docker run -p 8014:8040 personal-website
