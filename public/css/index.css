@@ -46,12 +46,16 @@ h2 {
     text-align: center;
     padding: 50px 0;
     color: #1dd1a1;
+    animation: animateComponents ease-out 0.7s;
 }
 
 h3 {
     padding: 35px 90px;
     margin-top: 70;
     margin-left: -40px;
+    animation: animateComponents ease-out 0.7s;
+    text-transform: uppercase;
+    line-height: 1px;
 }
 
 .main-heading {
@@ -174,14 +178,14 @@ h3 {
 }
 
 .section-projects {
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 90px;
 }
 
 .section-projects a {
     text-align: center;
     text-decoration: none;
-    margin-left: 600px;
+    margin-left: 597px;
     text-transform: uppercase;
     color: #1dd1a1;
     letter-spacing: 1px;
@@ -191,7 +195,6 @@ h3 {
 
 .section-projects a:active, .section-projects a:hover {
     color: black;
-    
 }
 
 .projects-paragraph-text {
