@@ -81,8 +81,8 @@ h2 {
     background-color: #1dd1a1;
 }
 
-.projects-paragraph p {
-    margin-left: 50px;
+.projects-heading p {
+    margin-left: 130px;
 }
 
 .main-heading a:active, .main-heading a:hover {
@@ -162,4 +162,9 @@ h2 {
 
 .github-link {
     margin-left: -45px;
+}
+
+.personal-life-heading {
+    top: 35%;
+    left: 100%;
 }
