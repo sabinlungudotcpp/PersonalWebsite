@@ -21,6 +21,7 @@ header {
 h1 {
     color: white;
     font-size: 100px;
+    margin-bottom: 50px;
 }
 
 .main-heading {
@@ -31,12 +32,14 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 1px;
     margin-left: 30px;
+    margin-bottom: 50px;
 }
 
 .main-heading p {
     color: white;
     margin-left: 130px;
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 
 .main-heading a {
@@ -74,6 +77,9 @@ h1 {
     padding: 10px 30px;
     padding-left: 20px;
     border-radius: 200px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
 }
 
 .btn-more {
@@ -82,11 +88,11 @@ h1 {
 }
 
 .btn-more a {
-    margin-top: 20px;
+    margin-top: 30px;
     float: right;
     margin-left: 30px;
 }
 
 .btn-more a:active, .btn-more a:hover {
-    
+
 }
