@@ -25,8 +25,11 @@ h1 {
 
 .main-heading {
     top: 40%;
-    left: 40%;
+    left: 35%;
     position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 .row {
@@ -50,5 +53,5 @@ h1 {
 }
 
 .main-navigation li a:active, .main-navigation li a:hover {
-    border-bottom: 2px solid #273c75;
+    border-bottom: 2px solid #1dd1a1;
 }
