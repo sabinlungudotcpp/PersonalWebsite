@@ -23,7 +23,7 @@ app.get('/', (request, response) => {
     const requestURL = request.url;
 
     if(requestMethod === 'GET' && requestURL.startsWith('/')) {
-        return response.status(okCode).sendFile(path.join(__dirname, 'index.html'));
+        return response.status(okCode).sendFile(path.join(__dirname, 'views', 'index.html'));
     }
 });
 
