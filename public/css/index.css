@@ -32,6 +32,11 @@ h1 {
     word-spacing: 1px;
 }
 
+.main-heading p {
+    color: white;
+    margin-left: 130px;
+}
+
 .row {
     width: 1140px;
     margin: 0 auto;
