@@ -5,36 +5,50 @@
 }
 
 html {
-    font-family: 'Poppins', sans-serif;
-    font-size: 150%;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
     text-rendering: optimizeLegibility;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/img/studyimg.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/img/business-1209705.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
-.row {
-    width: 1140px;
-    margin: 0;
+h1 {
+    color: white;
+    font-size: 100px;
 }
 
-.main-navigation {
-    
+.main-heading {
+    top: 40%;
+    left: 40%;
+    position: absolute;
+}
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 .main-navigation li {
-    padding: 10px 0;
+    padding: 18px 5px;
     text-transform: uppercase;
-    margin: 30px 40px;
+    margin: 44px 50px;
     display: inline-block;
 }
 
 .main-navigation li a {
     text-decoration: none;
     color: white;
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-navigation li a:active, .main-navigation li a:hover {
+    border-bottom: 2px solid #273c75;
 }
