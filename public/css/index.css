@@ -174,8 +174,8 @@ h3 {
 }
 
 .section-projects {
-    margin-bottom: 38px;
     margin-top: 50px;
+    margin-bottom: 90px;
 }
 
 .section-projects a {
@@ -184,10 +184,18 @@ h3 {
     margin-left: 600px;
     text-transform: uppercase;
     color: #1dd1a1;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    transition: color 0.2s, border 0.2s;
+}
+
+.section-projects a:active, .section-projects a:hover {
+    color: black;
+    
 }
 
 .projects-paragraph-text {
-    margin-bottom: 130px;
+    margin-bottom: 50px;
     margin-top: -10px;
     padding-left: 50px;
 }
