@@ -50,43 +50,30 @@ h2 {
 
 .main-heading {
     top: 40%;
-    left: 30%;
+    left: 28%;
     position: absolute;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 1px;
-    margin-left: 30px;
-    margin-bottom: 50px;
+    margin-left: 70px;
+    margin-bottom: 60px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .main-heading p {
     color: white;
     margin-left: 130px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
     margin-top: 40px;
-}
-
-.main-heading p:hover {
-    animation: animateComponents ease-out 0.5s;
-}
-
-.main-heading a {
-    margin-left: 118px;
-    margin-top: 10px;
-    text-decoration: none;
-    color: white;
-    border-radius: 200px;
-    padding: 10px 30px;
-    background-color: #1dd1a1;
 }
 
 .projects-heading p {
     margin-left: 130px;
 }
 
-.main-heading a:active, .main-heading a:hover {
-    background-color: #1dd1a1;
+
+.main-heading p:hover {
+    animation: animateComponents ease-out 0.5s;
 }
 
 .row {
