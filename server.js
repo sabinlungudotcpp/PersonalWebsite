@@ -23,9 +23,17 @@ app.get('/', (request, response) => {
     const requestURL = request.url;
 
     if(requestMethod === 'GET' && requestURL.startsWith('/')) {
-        return response.status(okCode).send('Personal Website Homepage');
+        return response.status(okCode).sendFile(path.join(__dirname, 'index.html'));
     }
 });
+
+app.use((request, response, next) => {
+    const requestMethod = request.method;
+
+    if(requestMethod === 'GET') {
+        return response.status(notFoundCode).sendFile(path.join(__dirname, '404.html'));
+    }
+})
 
 app.listen(process.env.PORT || 8040), (error) => {
     if(!error) {
