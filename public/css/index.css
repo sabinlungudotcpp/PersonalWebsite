@@ -130,5 +130,17 @@ h2 {
 
 .main-footer {
     background-color: #1dd1a1;
-    padding: 10px 0;
+    padding: 60px 20px;
+}
+
+.main-footer li {
+    display: inline-block;
+    padding: 20px 0;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.main-footer li a {
+    color: white;
+    text-decoration: none;
 }
