@@ -113,3 +113,15 @@ There will also be 2 other titles and paragraphs and they are:
 # Personal Projects Wireframe Design - Main Section
 
 <img width="592" alt="Projects Page Wireframe Design" src="https://user-images.githubusercontent.com/29733613/89100287-d3a90200-d3ed-11ea-8017-913a672135a5.png">
+
+# My Personal Life Wireframe Design - Header Section
+
+<img width="630" alt="My Life Wireframe Design" src="https://user-images.githubusercontent.com/29733613/89100323-17037080-d3ee-11ea-9ccc-31931a5ee756.png">
+
+# My Personal Life Wireframe Design - Section 1
+
+<img width="628" alt="My Life Wireframe Design - 1" src="https://user-images.githubusercontent.com/29733613/89100325-18cd3400-d3ee-11ea-9d83-d58ebbcb6ece.png">
+
+# My Personal Life Wireframe Design - Section 2
+
+<img width="629" alt="My Life Wireframe Design - 2" src="https://user-images.githubusercontent.com/29733613/89100326-1965ca80-d3ee-11ea-9c0b-3dfa846539ba.png">
