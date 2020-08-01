@@ -125,4 +125,10 @@ h2 {
     padding: 10px 40px;
     display: inline-block;
     margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.main-footer {
+    background-color: #1dd1a1;
+    padding: 10px 0;
 }
