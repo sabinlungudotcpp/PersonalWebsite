@@ -5,6 +5,7 @@ const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const app = express();
+const apiKeys = require('./config/apiKeys');
 
 const okCode = 200;
 const notFoundCode = 404;
@@ -17,6 +18,12 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(helmet.xssFilter());
 app.use(helmet.frameguard());
+
+app.use(cookieSession({
+    name: 'Sabins cookie',
+    maxAge: 60 * 30 * 30 * 24 * 1024,
+    keys: ['rwfgjeroigjeroigjergoi']
+}))
 
 app.get('/', (request, response) => {
     const requestMethod = request.method;
@@ -33,6 +40,8 @@ app.use((request, response, next) => {
     if(requestMethod === 'GET') {
         return response.status(notFoundCode).sendFile(path.join(__dirname, 'views', '404.html'));
     }
+
+    next();
 })
 
 app.listen(process.env.PORT || 8040), (error) => {
