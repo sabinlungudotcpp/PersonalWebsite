@@ -60,15 +60,19 @@ h2 {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.main-heading .personal-life-heading {
-    margin-right: 50px;
+.main-heading h1 {
+    margin-left: -5px;
 }
 
 .main-heading p {
     color: white;
-    margin-left: 135px;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-left: 123px;
+    margin-bottom: 40px;
+    margin-top: -15px;
+}
+
+.main-paragraph {
+    padding: 18px 0;
 }
 
 .projects-heading p {
