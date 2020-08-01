@@ -48,6 +48,11 @@ h2 {
     color: #1dd1a1;
 }
 
+h3 {
+    padding: 50px 100px;
+    margin-top: 100px;
+}
+
 .main-heading {
     top: 40%;
     left: 28%;
@@ -165,4 +170,8 @@ h2 {
 .personal-life-heading {
     top: 35%;
     left: 100%;
+}
+
+.projects-paragraph-text {
+    margin-bottom: 150px;
 }
