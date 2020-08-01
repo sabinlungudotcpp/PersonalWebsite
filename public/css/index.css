@@ -30,15 +30,17 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 1px;
+    margin-left: 30px;
 }
 
 .main-heading p {
     color: white;
     margin-left: 130px;
+    margin-bottom: 30px;
 }
 
 .main-heading a {
-    
+    margin-left: 120px;
 }
 
 .row {
@@ -66,7 +68,14 @@ h1 {
 }
 
 .btn-more {
-    text-decoration: none;
-    color: white;
-    padding: 20px 0;
+   color: white;
+   text-decoration: none;
+   margin-top: 20px;
+   padding-left: 20px;
+}
+
+.btn-more a {
+    margin-top: 20px;
+    float: right;
+    margin-left: 30px;
 }
