@@ -60,9 +60,13 @@ h2 {
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
+.main-heading .personal-life-heading {
+    margin-left: 50px;
+}
+
 .main-heading p {
     color: white;
-    margin-left: 130px;
+    margin-left: 100px;
     margin-bottom: 40px;
     margin-top: 40px;
 }
