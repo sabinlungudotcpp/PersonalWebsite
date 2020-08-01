@@ -125,3 +125,11 @@ There will also be 2 other titles and paragraphs and they are:
 # My Personal Life Wireframe Design - Section 2
 
 <img width="629" alt="My Life Wireframe Design - 2" src="https://user-images.githubusercontent.com/29733613/89100326-1965ca80-d3ee-11ea-9c0b-3dfa846539ba.png">
+
+# Hobbies Wireframe Design - Header Section
+
+<img width="628" alt="Hobbies Wireframe Design" src="https://user-images.githubusercontent.com/29733613/89100409-a9a40f80-d3ee-11ea-9a1e-e8c68a01d8f0.png">
+
+# Hobbies Wireframe Design - Main Section
+
+<img width="631" alt="Hobbies - Section 1 Wireframe Design" src="https://user-images.githubusercontent.com/29733613/89100411-ab6dd300-d3ee-11ea-817d-dcdd4c69192f.png">
