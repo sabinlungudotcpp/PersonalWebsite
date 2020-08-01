@@ -133,3 +133,11 @@ There will also be 2 other titles and paragraphs and they are:
 # Hobbies Wireframe Design - Main Section
 
 <img width="631" alt="Hobbies - Section 1 Wireframe Design" src="https://user-images.githubusercontent.com/29733613/89100411-ab6dd300-d3ee-11ea-817d-dcdd4c69192f.png">
+
+# Website Hierarchy Design
+
+<img width="747" alt="Website Hierarchy" src="https://user-images.githubusercontent.com/29733613/89100432-d0624600-d3ee-11ea-81a0-c4145e2ca8cf.png">
+
+# Docker & Travis CI Workflow Design
+
+<img width="477" alt="Workflow Design" src="https://user-images.githubusercontent.com/29733613/89100433-d22c0980-d3ee-11ea-894f-c4b7690da98a.png">
