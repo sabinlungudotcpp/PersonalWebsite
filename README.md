@@ -105,3 +105,11 @@ There will also be 2 other titles and paragraphs and they are:
 # Homepage Wireframe Design - Main Section
 
 <img width="525" alt="Homepage - Main Section + Footer" src="https://user-images.githubusercontent.com/29733613/89100261-9fcddc80-d3ed-11ea-9282-b90763c61b03.png">
+
+# Personal Projects Wireframe Design - Header Section
+
+<img width="525" alt="Personal Projects Page Design" src="https://user-images.githubusercontent.com/29733613/89100286-d277d500-d3ed-11ea-8da0-c7da8c6c8eae.png">
+
+# Personal Projects Wireframe Design - Main Section
+
+<img width="592" alt="Projects Page Wireframe Design" src="https://user-images.githubusercontent.com/29733613/89100287-d3a90200-d3ed-11ea-8017-913a672135a5.png">
