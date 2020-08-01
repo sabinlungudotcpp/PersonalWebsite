@@ -136,11 +136,16 @@ h2 {
 .main-footer li {
     display: inline-block;
     padding: 20px 0;
-    margin-left: 30px;
+    margin-left: 200px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .main-footer li a {
     color: white;
     text-decoration: none;
+}
+
+.main-footer li a:active, .main-footer li a:hover {
+    color: black;
 }
