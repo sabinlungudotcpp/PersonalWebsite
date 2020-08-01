@@ -6,6 +6,14 @@
 
 html {
     font-family: 'Poppins', sans-serif;
-    font-size: 300;
+    font-size: 150%;
     text-rendering: optimizeLegibility;
+    font-weight: 300;
+}
+
+header {
+    background-image: url("/img/sabin1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
