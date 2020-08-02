@@ -150,3 +150,16 @@ There will also be 2 other titles and paragraphs and they are:
 # Homepage Implementation - 2
 
 <img width="1439" alt="Homepage 2" src="https://user-images.githubusercontent.com/29733613/89124153-b5660380-d4cc-11ea-95db-50c23624b17c.png">
+
+
+# Personal Projects Implementation - 1
+
+<img width="1437" alt="Projects 1" src="https://user-images.githubusercontent.com/29733613/89124222-37eec300-d4cd-11ea-9e97-a0922c31e1b4.png">
+
+# Personal Projects Implementation - 2
+
+<img width="1440" alt="Projects 2" src="https://user-images.githubusercontent.com/29733613/89124234-4f2db080-d4cd-11ea-8b3d-73ae61764b3f.png">
+
+# Personal Projects Implementation - 3
+
+<img width="1439" alt="Projects 3" src="https://user-images.githubusercontent.com/29733613/89124236-51900a80-d4cd-11ea-8083-cd20e7a6582b.png">
