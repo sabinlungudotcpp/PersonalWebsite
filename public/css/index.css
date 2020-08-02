@@ -193,16 +193,16 @@ h3 {
 
 .main-footer {
     background-color: #1dd1a1;
-    padding: 9px 10px;
+    padding: 3px 3px;
     margin-top: 150px;
 }
 
 .main-footer li {
     display: inline-block;
-    padding: 10px 0;
-    margin-left: 200px;
+    padding: 2px 0;
+    margin-left: 220px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     text-transform: uppercase;
 }
 
@@ -215,9 +215,10 @@ h3 {
     letter-spacing: 1px;
     word-spacing: 1px;
     text-align: center;
-    margin-left: 15px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 2px 0;
+    margin-bottom: 25px;
 }
 
 .main-footer li a {
