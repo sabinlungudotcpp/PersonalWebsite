@@ -55,6 +55,10 @@ h3 {
     margin-left: -40px;
     animation: animateComponents ease-out 0.7s;
     text-transform: uppercase;
+    line-height: 1px;
+    display: inline-block;
+    overflow: hidden;
+    clear: both;
 }
 
 .main-heading {
