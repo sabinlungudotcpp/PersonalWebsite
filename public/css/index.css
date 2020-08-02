@@ -44,14 +44,16 @@ h1 {
 h2 {
     text-transform: uppercase;
     text-align: center;
-    padding: 50px 0;
+    padding: 60px 0;
+    margin-top: 20px;
+    margin-bottom: -10px;
     color: #1dd1a1;
     animation: animateComponents ease-out 0.7s;
 }
 
 h3 {
     padding: 35px 90px;
-    margin-top: 70;
+    margin-top: 20px;
     margin-left: -40px;
     animation: animateComponents ease-out 0.7s;
     text-transform: uppercase;
