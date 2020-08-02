@@ -144,8 +144,9 @@ There will also be 2 other titles and paragraphs and they are:
 
 # Homepage Implementation - 1
 
-<img width="1440" alt="Homepage Implementation" src="https://user-images.githubusercontent.com/29733613/89105845-b7708980-d41c-11ea-9f85-988b686a101d.png">
+<img width="1439" alt="Homepage 1" src="https://user-images.githubusercontent.com/29733613/89124143-8cde0980-d4cc-11ea-8023-55901e6bfdb4.png">
+
 
 # Homepage Implementation - 2
 
-<img width="1439" alt="Homepage Impementation 2" src="https://user-images.githubusercontent.com/29733613/89105860-cfe0a400-d41c-11ea-8e10-84f4f5d14d14.png">
+<img width="1439" alt="Homepage 2" src="https://user-images.githubusercontent.com/29733613/89124153-b5660380-d4cc-11ea-95db-50c23624b17c.png">
