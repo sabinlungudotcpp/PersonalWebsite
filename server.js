@@ -5,7 +5,6 @@ const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const app = express();
-const apiKeys = require('./config/apiKeys');
 
 const okCode = 200;
 const notFoundCode = 404;
