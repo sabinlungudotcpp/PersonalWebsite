@@ -236,3 +236,24 @@ h3 {
 .projects-icon:hover {
     animation: animateComponents ease-out 0.5s;
 }
+
+.section-life {
+
+}
+
+.section-life img {
+    width: 110%;
+    height: auto;
+}
+
+.life-heading {
+    margin-left: -40px;
+    color: #1dd1a1;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: -10px;
+}
+
+.life-paragraph {
+    margin-left: 50px;
+}
