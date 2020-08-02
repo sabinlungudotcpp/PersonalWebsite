@@ -217,3 +217,11 @@ h3 {
     transition: border 0.2s, color 0.2s;
     border-bottom: 2px solid transparent;
 }
+
+.projects-icon {
+    font-size: 40px;
+    color: #1dd1a1;
+    display: block;
+    margin-left: 40px;
+    margin-bottom: -19px;
+}
