@@ -51,6 +51,16 @@ h2 {
     animation: animateComponents ease-out 0.7s;
 }
 
+h2:after {
+    display: block;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 38px;
+    height: 2px;
+    background-color: #1dd1a1;
+}
+
 h3 {
     padding: 35px 90px;
     margin-top: 20px;
