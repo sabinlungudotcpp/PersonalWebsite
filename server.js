@@ -1,18 +1,18 @@
-const express = require('express');
+const express = require('express'); // Imports ExpressJS API Library
 const path = require('path');
 const cookieSession = require('cookie-session');
 const helmet = require('helmet');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
-const app = express();
+const app = express(); // Creates a new instance of express
 
-const okCode = 200;
-const notFoundCode = 404;
+const okCode = 200; // 200 OK Status Code
+const notFoundCode = 404; // 404 Not Found status code.
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(morgan('dev'));
-app.use(bodyParser.json());
+app.use(bodyParser.json()); // Use the JSON middleware
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(helmet.xssFilter());
@@ -24,8 +24,8 @@ app.use(cookieSession({
     keys: ['rwfgjeroigjeroigjergoi']
 }))
 
-app.get('/', (request, response) => {
-    const requestMethod = request.method;
+app.get('/', (request, response) => { // Handles a GET request on the '/' root route
+    const requestMethod = request.method; // The request method
     const requestURL = request.url;
 
     if(requestMethod === 'GET' && requestURL.startsWith('/') && request.accepts('html')) {
@@ -33,7 +33,7 @@ app.get('/', (request, response) => {
     }
 });
 
-app.get('/personal-projects', (request, response) => {
+app.get('/personal-projects', (request, response) => { // Handles a GET request on the /personal-projects route
     const requestMethod = request.method;
 
     if(requestMethod === 'GET' && request.accepts('html')) {
@@ -59,8 +59,8 @@ app.use((request, response, next) => {
     next();
 })
 
-app.listen(process.env.PORT || 8040), (error) => {
-    if(!error) {
+app.listen(process.env.PORT || 8040), (error) => { // Listens for incoming requests
+    if(!error) { // If there are no errors
         return console.log('Listening for requests on port 8040');
     }
 
