@@ -53,6 +53,10 @@ h2 {
     animation: animateComponents ease-out 0.7s;
 }
 
+h2:hover {
+    animation: animateComponents ease-out 0.3s;
+}
+
 h2:after {
     display: block;
     content: " ";
@@ -206,13 +210,13 @@ h3:hover {
 
 .main-footer {
     background-color: #1dd1a1;
-    padding: 3px 1px;
+    padding: 10px 1px;
     margin-top: 150px;
 }
 
 .main-footer li {
     display: inline-block;
-    padding: 2px 0;
+    padding: 9px 0;
     margin-left: 220px;
     text-align: center;
     margin-top: 60px;
@@ -221,7 +225,6 @@ h3:hover {
 
 .main-footer li a:active, .main-footer li a:hover {
     color: black;
-    border-bottom: 2px solid #1dd1a1;
 }
 
 .main-footer p {
