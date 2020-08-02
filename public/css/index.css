@@ -252,13 +252,14 @@ h3 {
 
 .life-img img {
     margin-right: 30px;
-    transform: scale(1.14);
+    transform: scale(1.15);
     transition: transform 0.4s;
+    opacity: 0.9;
 }
 
 .life-img img:hover {
     opacity: 1;
-    transform: scale(1.06);
+    transform: scale(1.08);
 }
 
 .section-life img:hover {
