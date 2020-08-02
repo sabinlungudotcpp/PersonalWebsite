@@ -76,6 +76,11 @@ h3 {
     font-weight: 300;
 }
 
+h3:hover {
+    color: #1dd1a1;
+    transition: color 0.2s, border 0.2s;
+}
+
 .main-heading {
     top: 40%;
     left: 28%;
@@ -291,6 +296,7 @@ h3 {
 .life-heading:hover {
     color: black;
     transition: border 0.2s, color 0.2s;
+    animation: animateComponents ease-in-out 0.5s;
 }
 
 .life-paragraph {
