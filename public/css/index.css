@@ -237,13 +237,32 @@ h3 {
     animation: animateComponents ease-out 0.5s;
 }
 
-.section-life {
-
+.section-life img {
+    width: 100%;
+    height: auto;
+    padding: 0;
 }
 
-.section-life img {
-    width: 110%;
-    height: auto;
+.life-img {
+    margin: 0;
+    overflow: hidden;
+    margin-left: 10px;
+    background-color: black;
+}
+
+.life-img img {
+    margin-right: 30px;
+    transform: scale(1.14);
+    transition: transform 0.4s;
+}
+
+.life-img img:hover {
+    opacity: 1;
+    transform: scale(1.06);
+}
+
+.section-life img:hover {
+    background-color: black;
 }
 
 .life-heading {
@@ -256,4 +275,12 @@ h3 {
 
 .life-paragraph {
     margin-left: 50px;
+}
+
+.life-icon {
+    font-size: 40px;
+    color: #1dd1a1;
+    display: block;
+    margin-left: 49px;
+    margin-bottom: -18px;
 }
