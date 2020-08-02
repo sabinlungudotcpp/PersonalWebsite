@@ -37,7 +37,7 @@ header {
 h1 {
     color: white;
     font-size: 100px;
-    margin-bottom: 50px;
+    padding: -9px 5px;
     animation: animateComponents ease-out 0.7s;
 }
 
@@ -116,7 +116,7 @@ h3 {
 .main-navigation li {
     padding: 18px 5px;
     text-transform: uppercase;
-    margin: 44px 50px;
+    margin: 44px 60px;
     display: inline-block;
 }
 
@@ -290,5 +290,9 @@ h3 {
     display: block;
     margin-left: 49px;
     margin-bottom: -18px;
-    margin-top: 30px;
+    margin-top: 5px;
+}
+
+.life-icon:hover {
+    animation: animateComponents ease-out 0.5s;
 }
