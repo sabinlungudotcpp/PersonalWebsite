@@ -225,3 +225,7 @@ h3 {
     margin-left: 44px;
     margin-bottom: -27px;
 }
+
+.projects-icon:hover {
+    animation: animateComponents ease-out 0.5s;
+}
