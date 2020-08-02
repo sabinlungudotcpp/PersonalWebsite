@@ -163,3 +163,19 @@ There will also be 2 other titles and paragraphs and they are:
 # Personal Projects Implementation - 3
 
 <img width="1439" alt="Projects 3" src="https://user-images.githubusercontent.com/29733613/89124236-51900a80-d4cd-11ea-8083-cd20e7a6582b.png">
+
+# Personal Life Page - 1
+
+<img width="1439" alt="Life 1" src="https://user-images.githubusercontent.com/29733613/89124322-fdd1f100-d4cd-11ea-8377-90178efd4a45.png">
+
+# Personal Life Page - 2
+
+<img width="1439" alt="Life 2" src="https://user-images.githubusercontent.com/29733613/89124339-3376da00-d4ce-11ea-8213-1d00b14fbc5e.png">
+
+# Personal Life Page - 3
+
+<img width="1439" alt="Life 3" src="https://user-images.githubusercontent.com/29733613/89124366-57d2b680-d4ce-11ea-8f1a-68b123371b14.png">
+
+# Heroku Deployment Link
+
+https://thawing-dusk-84863.herokuapp.com/
